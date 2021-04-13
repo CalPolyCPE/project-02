@@ -26,10 +26,13 @@ Notes:
   expression that your programs will be required to handle.
 * In addition to the operators + - * / shown in class, your programs
   should handle the exponentiation operator.  In this assignment, the
-  exponential operator will be denoted by ^.  For example, 2^3=8 and
-  3^2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
-* For infix expressions, the exponentiation operator has higher
-  precedence than the * or /.  For example, 2\*3^2 = 2*9 = 18 not 6^2=36
+  exponential operator will be denoted by either ^ or **.  For example, 
+  2^3=8 and 3^2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
+* Your programs should also handle the bitshift operators >> and << 
+  (https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts)
+* For infix expressions, the exponentiation and bit-shift operators have
+  higher precedence than the * or /.  For example, 2\*3^2 = 2*9 = 18 not 
+  6^2=36
 * Also, for infix expressions, the exponentiation operator associates
   from right to left.  The other operators (+,-,*, /) associate left to
   right. Think carefully about what this means.  For example: 2^3^2 =
